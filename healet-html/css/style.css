@@ -70,6 +70,11 @@ body {
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+  color: #030303;
+}
+p{
+  color: #030303;
+
 }
 
 /*header section*/
@@ -320,17 +325,17 @@ a:focus {
   display: inline-block;
   padding: 10px 45px;
   background-color: transparent;
-  color: #fd9c6b;
+  color: #030303;
   border-radius: 5px;
-  border: 1px solid #fd9c6b;
+  border: 1px solid #030303;
   -webkit-transition: all .2s;
   transition: all .2s;
   margin-top: 35px;
 }
 
 .slider_section .detail-box .slider-link:hover {
-  background-color: #fd9c6b;
-  color: #ffffff;
+  background-color: #84cfec;
+  color: #faf7f7;
 }
 
 .slider_section .slider_bg_box {
@@ -359,8 +364,8 @@ a:focus {
 .shop_section .box {
   background-color: #eeeeee;
   position: relative;
-  padding: 10px;
-  margin-top: 25px;
+  padding: 1px;
+  margin-top: 10px;
 }
 
 .shop_section .box a {
@@ -377,13 +382,14 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 15px 30px;
-  height: 245px;
+  padding: 10px 30px;
+  height: 350px;
+
 }
 
 .shop_section .box .img-box img {
   max-width: 100%;
-  max-height: 145px;
+  max-height: 310px;
 }
 
 .shop_section .box .detail-box {
@@ -662,7 +668,7 @@ a:focus {
 
 .blog_section .box .detail-box a:hover {
   background-color: #160e0b;
-  color: #ffffff;
+  color: #fffdff;
 }
 
 .client_section .heading_container {
@@ -758,7 +764,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #160e0b;
+  background-color: #383737;
   color: #ffffff;
 }
 
@@ -901,7 +907,7 @@ a:focus {
   width: 65px;
   min-width: 65px;
   height: 65px;
-  padding: 10px;
+  padding: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -918,6 +924,7 @@ a:focus {
 .info_section .info_insta .insta_box .img-box img {
   max-width: 100%;
   max-height: 100%;
+
 }
 
 .info_section .info_insta .insta_box p {
