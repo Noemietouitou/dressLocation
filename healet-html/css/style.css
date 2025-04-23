@@ -324,18 +324,18 @@ a:focus {
 .slider_section .detail-box .slider-link {
   display: inline-block;
   padding: 10px 45px;
-  background-color: transparent;
-  color: #030303;
+  background-color: #fac898;
+  color: white;
   border-radius: 5px;
-  border: 1px solid #030303;
+  border: 1px solid white;
   -webkit-transition: all .2s;
   transition: all .2s;
   margin-top: 35px;
 }
 
 .slider_section .detail-box .slider-link:hover {
-  background-color: #fac898;
-  color: #faf7f7;
+  background-color: transparent;
+  color: #fac898;
 }
 
 .slider_section .slider_bg_box {
