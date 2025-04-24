@@ -972,3 +972,29 @@ a:focus {
 }
 /*# sourceMappingURL=style.css.map */
 
+.filter-container {
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #a8f387; /* vert pomme */
+  padding: 10px 16px;
+  margin: 5px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.filter-btn:hover {
+  background-color: #a8f387; /* vert pomme */
+  color: white;
+}
+
+.filter-btn.active {
+  background-color: #a8f387;
+  color: white;
+  border-color: #a8f387;
+}
